@@ -75,10 +75,10 @@ namespace PhoneHome.Client.Timers
                 phoneHomeFrequency = (this._phoneHomeConfig.PhoneHomeFrequencySeconds);
             }
 
-            // still no value then default to 10 minutes!
+            // still no value then default to 5 minutes!
             if (!phoneHomeFrequency.HasValue)
             {
-                phoneHomeFrequency = 1000 * 60 * 10;
+                phoneHomeFrequency = 1000 * 60 * 5;
             }
 
             return phoneHomeFrequency.Value;
