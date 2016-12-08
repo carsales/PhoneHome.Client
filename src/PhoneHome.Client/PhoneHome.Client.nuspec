@@ -4,7 +4,7 @@
         <id>PhoneHome.Client</id>
         <version>1.0.0.0</version>
         <title>PhoneHome.Client Library</title>
-        <authors>PhoneHome.Client</authors>
+        <authors>carsales.com.au</authors>
         <owners>Copyright © Carsales.com ltd 2016</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>PhoneHome.Client</description>
