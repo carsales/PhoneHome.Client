@@ -14,6 +14,6 @@
     </metadata>
     <files>
         <file src="App_Start\PhoneHome.cs.pp" target="content\App_Start\PhoneHome.cs.pp" />
-        <file src="C:\src\phonehome\phonehome.client\src\PhoneHome.Client\bin\Debug\PhoneHome.Client.dll" target="lib\net45\PhoneHome.Client.dll" />
+        <file src="src\PhoneHome.Client\bin\Debug\PhoneHome.Client.dll" target="lib\net45\PhoneHome.Client.dll" />
     </files>
 </package>

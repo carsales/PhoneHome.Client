@@ -28,6 +28,11 @@ namespace PhoneHome.Client.Configuration
         public string ApplicationVersion { get; set; }
 
         /// <summary>
+        /// The type of application that is phoning home (website, api, windows service etc)
+        /// </summary>
+        public string ApplicationType { get; set; }
+
+        /// <summary>
         /// The environment that the application is running in (Development, Staging, UAT, Production)
         /// </summary>
         public string Environment { get; set; }
